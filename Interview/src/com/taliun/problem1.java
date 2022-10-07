@@ -9,7 +9,25 @@ public static void main(String[] args) {
 	StringBuilder revstr = new StringBuilder(str).reverse();
 	
 	System.out.println(revstr);
-	
+
+
+	String input = "Hello, World!";
+   char[] chars = input.toCharArray();
+   int left = 0;
+   int right = chars.length - 1;
+
+   while (left < right) {
+       // Swap characters at left and right indices
+       char temp = chars[left];
+       chars[left] = chars[right];
+       chars[right] = temp;
+
+       left++;
+       right--;
+   }
+    System.out.println(input);
+	String reversedString = new String(chars);
+	System.out.println(reversedString);
 //	String newstr = reverseStr(str);
 	
 	
