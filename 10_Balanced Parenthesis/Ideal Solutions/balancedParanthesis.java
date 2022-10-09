@@ -1,8 +1,10 @@
 import java.lang.*;
 import java.io.*;
 import java.util.*;
-
-class Main{
+import java.util.HashMap;
+import java.util.Stack;
+// Check Parenthesis is balanced or not balanced
+public class Main{
   //This function returns whether the string is balanced or not with the help of a stack.
   public static boolean balancedParenthesis(String a){
     HashMap<Character,Character> map = new HashMap<>();
@@ -24,9 +26,9 @@ class Main{
   public static void main(String[] args){
       int n = 6;
       String a = "[()]{}";
-      if (balancedParenthesis(a)) System.out.println("Yes");
+      if (balancedParenthesis(a)) System.out.println("Yes Balanced");
       else{
-        System.out.println("No");
+        System.out.println("Not Balanced");
       }
   }
 }
