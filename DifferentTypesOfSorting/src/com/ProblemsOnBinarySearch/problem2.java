@@ -3,10 +3,10 @@ package com.ProblemsOnBinarySearch;
 public class problem2 {
     public static void main(String[] args){
         int arr[] = {3, 37, 15, 2, 4};
-        int result = checkValue(arr);
+        int result = getPivot(arr);
         System.out.println("Index of that element is "+ result);
     }
-    public static int checkValue(int[] arr){
+    public static int getPivot(int[] arr){
         int start = 0;
         int end = arr.length - 1;
         int mid = start + (end - start)/2;
