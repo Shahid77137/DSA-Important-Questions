@@ -1,12 +1,9 @@
-// import java.io.*;
-// import java.lang.*;
-// import java.util.*;
+package com.sorting;
 import java.util.Scanner;
 import java.util.Arrays;
 
-
-class bubbleSort{
-	//This function swaps two elements in the array.
+public class BubbleSort {
+//This function swaps two elements in the array.
 	public static void swap(int[] arr,int i,int j){
 		int temp = arr[i];
 		arr[i] = arr[j];
@@ -44,8 +41,8 @@ class bubbleSort{
 		for (Integer i : arr) System.out.print(i + " ");
 		System.out.println();
 		System.out.println(Arrays.toString(arr).replace(",", " "));	
+        sc.close();
 	}
 }
-
 
 
