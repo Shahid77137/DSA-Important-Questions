@@ -28,23 +28,26 @@ class Main{
 	//Main Function
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Length of First String");
-		int n = Integer.parseInt(sc.next());
-		System.out.println("Enter Length of Second String");
-		int m = Integer.parseInt(sc.next());
-		System.out.println("Write First String");
-		String a = sc.next();
-		System.out.println("Write Second String");
-		String b = sc.next();
-		
-		// int n = 4;
-		// String a = "abcd";
-		// int m = 4;
-		// String b = "adcb";
-		if (checkAnagram(a,b,n,m)) System.out.println("Yes This pair of String is Anagram");
-		else{
-			System.out.println("No This pair of String is not a Anagram");
+		while(true){
+
+			System.out.println("Enter Length of First String");
+			int n = Integer.parseInt(sc.next());
+			System.out.println("Enter Length of Second String");
+			int m = Integer.parseInt(sc.next());
+			System.out.println("Write First String");
+			String a = sc.next();
+			System.out.println("Write Second String");
+			String b = sc.next();
+			
+			// int n = 4;
+			// String a = "abcd";
+			// int m = 4;
+			// String b = "adcb";
+			if (checkAnagram(a,b,n,m)) System.out.println("Yes This pair of String is Anagram");
+			else{
+				System.out.println("No This pair of String is not a Anagram");
+			}
 		}
-		sc.close();
+		// sc.close();
 	}
 }
