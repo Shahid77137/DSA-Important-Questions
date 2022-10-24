@@ -41,9 +41,9 @@ class Main{
 		// String a = "abcd";
 		// int m = 4;
 		// String b = "adcb";
-		if (checkAnagram(a,b,n,m)) System.out.println("Yes");
+		if (checkAnagram(a,b,n,m)) System.out.println("Yes This pair of String is Anagram");
 		else{
-			System.out.println("No");
+			System.out.println("No This pair of String is not a Anagram");
 		}
 		sc.close();
 	}
