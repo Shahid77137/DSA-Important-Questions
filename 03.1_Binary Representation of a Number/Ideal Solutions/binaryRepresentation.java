@@ -26,11 +26,12 @@ class Main{
 		return ans;
 
 	}
+	
 	//Main Function
 	public static void main(String[] args){
 		// int n = 7;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please Enter number here");
+		System.out.println("Please Enter number here for binary presentation");
 		int n = Integer.parseInt(sc.next());
 		String ans = binaryRepresentation(n);
       	System.out.println(ans);	
