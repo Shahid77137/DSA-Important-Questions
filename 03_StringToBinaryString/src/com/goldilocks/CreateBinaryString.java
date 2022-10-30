@@ -13,7 +13,9 @@ public class CreateBinaryString {
 			System.out.println("Please provide Valid input");
 		}
 		System.out.println(Integer.toBinaryString(value));
+		sc.close();
 	}
-	
-	
 }
+
+
+// Integer.toBinaryString(anynumber which you want to convert into binary).
