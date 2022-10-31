@@ -93,9 +93,9 @@ class Main {
         int n = Integer.parseInt(sc.next());
         boolean result = check(n);
         if(result)
-        System.out.println("Yes");
+        System.out.println("Yes this number is Prime");
         else 
-        System.out.println("No");
+        System.out.println("No this number is not Prime");
         sc.close();
     }
     public static boolean check(int n){
