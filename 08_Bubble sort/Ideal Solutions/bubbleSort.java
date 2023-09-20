@@ -42,7 +42,8 @@ class bubbleSort{
 		// int[] arr = {5,1,6,3,7};
 		bubbleSort(arr,n);
 		for (Integer i : arr) System.out.print(i + " ");
-		System.out.println(Arrays.toString(arr));	
+		System.out.println();
+		System.out.println(Arrays.toString(arr).replace(",", " "));	
 	}
 }
 
