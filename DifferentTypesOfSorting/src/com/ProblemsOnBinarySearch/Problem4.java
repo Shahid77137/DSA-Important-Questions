@@ -2,7 +2,7 @@ package com.ProblemsOnBinarySearch;
 //  Find Square root of a number by using Binary Search
 public class Problem4 {
     public static void main(String[] args){
-        long n = 72;
+        long n = 467;
         long result  = squareRoot(n);
         double finalresult = preciseAns(n, 3, result);
         // Format the double value with the desired number of decimal places
