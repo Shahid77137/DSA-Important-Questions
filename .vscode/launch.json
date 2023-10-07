@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Problem",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.Problem",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.Problem1",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "Problem3",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.Problem3",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "Problem4",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.Problem4",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "SearchInRotatedArray",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.SearchInRotatedArray",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "problem2",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.ProblemsOnBinarySearch.problem2",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.BinarySearch",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.BubbleSort",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.InsertionSort",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.MergeSort",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.QuickSort",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortAgain",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.QuickSortAgain",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.SelectionSort",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "SliddingWindow",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.SliddingWindow",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "SwapNumbers",
+            "request": "launch",
+            "mainClass": "DifferentTypesOfSorting/com.sorting.SwapNumbers",
+            "projectName": "DifferentTypesOfSorting"
+        },
+        {
+            "type": "java",
+            "name": "DemoExample",
+            "request": "launch",
+            "mainClass": "com.taliun.DemoExample",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "DemoMain",
+            "request": "launch",
+            "mainClass": "com.taliun.DemoMain",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.taliun.Main",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "com.taliun.ReverseString",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "problem1",
+            "request": "launch",
+            "mainClass": "com.taliun.problem1",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "problem2(1)",
+            "request": "launch",
+            "mainClass": "com.taliun.problem2",
+            "projectName": "Interview"
+        },
+        {
+            "type": "java",
+            "name": "CreateBinaryString",
+            "request": "launch",
+            "mainClass": "StringToBinaryString/com.goldilocks.CreateBinaryString",
+            "projectName": "StringToBinaryString"
+        }
+    ]
+}
