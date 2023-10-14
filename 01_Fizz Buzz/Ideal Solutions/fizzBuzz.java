@@ -1,7 +1,7 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 // import java.lang.*;
 // import java.io.*;
-// import java.util.*;
+import java.util.*;
 
  class Main{
 	//This function prints the elements according to the condition mentioned in the question.
@@ -29,7 +29,7 @@ class DemoMain {
         // int n = sc.nextInt();
         int n = Integer.parseInt(sc.next());
         for (int i=1;i<=n;i++){
-            
+
             if(i % 3 == 0 && i % 5 == 0)
             System.out.println("FizzBuzz");
             else if (i % 3 == 0)
@@ -39,11 +39,12 @@ class DemoMain {
             else
             System.out.println(i);
         }
+        sc.close();
     }
 }
 
 
-class Main{
+class MainExample{
 	//This function prints the elements according to the condition mentioned in the question.
 	public static void fizzBuzz(int n){
 		for (int i=1;i<=n;i++){
@@ -61,10 +62,10 @@ class Main{
 		fizzBuzz(n);
 	}
 }
-// // 2nd Way of doing this
+// 2nd Way of doing this
 // import java.util.Scanner;
 
-class Main {
+class MainTwo {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -80,13 +81,14 @@ class Main {
             else
             System.out.println(i);
         }
+        sc.close();
     }
 }
 // 3nd Way of doing this
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Main {
+class MainThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
